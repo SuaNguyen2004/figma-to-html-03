@@ -19,7 +19,7 @@ body {
 
 .container {
   width: 1170px;
-  min-width: calc(100% - 48px);
+  max-width: calc(100% - 48px);
   margin: 0 auto;
 }
 
@@ -266,6 +266,6 @@ a {
   line-height: 1.75; /* 175% */
 }
 
-.service__btn{
+.service__btn {
   margin-top: 55px;
 }
